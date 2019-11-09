@@ -1,0 +1,24 @@
+{
+  "amiibos": [
+    {
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-00340102.png",
+      "name": "Mario",
+      "price": 20.00
+    },
+    {
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00010000-00350102.png",
+			"name": "Luigi",
+      "price": 21.00
+    },
+    {
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00020000-00360102.png",
+			"name": "Peach",
+      "price": 22.00
+    },
+    {
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00030000-00370102.png",
+			"name": "Yoshi",
+      "price": 23.00
+    }
+  ]
+}
