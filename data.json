@@ -24,5 +24,16 @@
 			"name": "Leche Ideal",
       "price": 23.00
     }
+  ],
+  "orders": [
+    {
+      "id": "P0001",
+      "delivery_date": "05/10/2019",
+      "products": {
+        "id": "1",
+        "quantity": 1
+      },
+      "total_price": 30
+      }
   ]
 }
