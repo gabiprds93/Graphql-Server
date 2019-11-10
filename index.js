@@ -2,17 +2,13 @@ const express = require('express');
 const graphqlHTTP = require('express-graphql');
 
 const schema = require('./schema');
-const { amiibos } = require('./data');
+const rootValue = require('./rootValue');
 
 const app = express();
 
-const root = {
-  amiibos: () => amiibos
-}
-
 app.use('/graphql', graphqlHTTP({
   schema,
-  rootValue: root,
+  rootValue,
   graphiql: true
 }));
 

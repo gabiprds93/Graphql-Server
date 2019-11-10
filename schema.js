@@ -5,15 +5,6 @@ const schema = buildSchema(`
     products: [Product]
     orders: [Order]
   }
-  
-  type Mutation {
-    addOrder (
-      id: ID!,
-      delivery_date: String,
-      products: [ShorTypeProduct],
-      total_price: Int
-    ): Order
-  }
 
   type Product {
     id: ID
