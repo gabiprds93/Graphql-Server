@@ -1,27 +1,27 @@
 {
-  "amiibos": [
+  "products": [
     {
       "id": "1",
-      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00000000-00340102.png",
-      "name": "Mario",
+      "image": "https://s7d2.scene7.com/is/image/TottusPE/10166233?$S7Product$&wid=129&hei=129&op_sharpen=0",
+      "name": "Yogurt Laive",
       "price": 20.00
     },
     {
       "id": "2",
-      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00010000-00350102.png",
-			"name": "Luigi",
+      "image": "https://s7d2.scene7.com/is/image/TottusPE/41103580?$S7Product$&wid=129&hei=129&op_sharpen=0",
+			"name": "Leche Gloria",
       "price": 21.00
     },
     {
       "id": "3",
-      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00020000-00360102.png",
-			"name": "Peach",
+      "image": "https://s7d2.scene7.com/is/image/TottusPE/40327538?$S7Product$&wid=129&hei=129&op_sharpen=0",
+			"name": "Yogurt Gloria",
       "price": 22.00
     },
     {
       "id": "4",
-      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00030000-00370102.png",
-			"name": "Yoshi",
+      "image": "https://s7d2.scene7.com/is/image/TottusPE/41673600?$S7Product$&wid=129&hei=129&op_sharpen=0",
+			"name": "Leche Ideal",
       "price": 23.00
     }
   ]
