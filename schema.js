@@ -10,7 +10,11 @@ const schema = buildSchema(`
     addOrder (
       id: ID!
       delivery_date: String
-      products: [Product]
+      products: {
+        id: ID!
+        quantity: Int
+      }
+      total_price: Int
     ):
   }
 
@@ -24,7 +28,11 @@ const schema = buildSchema(`
   type Order {
     id: ID
     delivery_date: String
-    products: [Product]
+    products: {
+      id: ID
+      quantity: Int
+    }
+    total_price: Int
   }
 `);
 
